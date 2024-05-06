@@ -52,7 +52,8 @@
  `(dired-perm-write ((t (:foreground ,color_6))))
  `(dired-symlink ((t (:foreground ,color_7))))
  `(dired-warning ((t (:foreground ,color_11))))
-
+ 
+`(eshell-prompt ((t (:foreground ,color_7)))))
  ))
 
 (provide-theme 'loveisanillusion.emacs)
