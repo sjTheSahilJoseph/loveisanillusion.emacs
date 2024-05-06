@@ -16,6 +16,7 @@
       (color_9 "#f05624")
       (color_10 "#0e0e0e") ;; BG Primarily
       (color_11 "#aa0000")
+      (color_12 "#555555") ;; Dim Text
   )
 
 (custom-theme-set-faces
@@ -29,12 +30,12 @@
  `(font-lock-function-name-face ((t (:foreground ,color_1))))
  `(font-lock-variable-name-face ((t (:foreground ,color_1))))
  `(font-lock-builtin-face ((t (:foreground ,color_1))))
- `(font-lock-constant-face ((t (:foreground ,color_1))))
+ `(font-lock-constant-face ((t (:foreground ,color_6))))
  `(font-lock-type-face ((t (:foreground ,color_5))))
  `(font-lock-preprocessor-face ((t (:foreground ,color_5))))
 
- `(mode-line ((t (:foreground ,color_2 :background ,color_3))))
- `(mode-line-inactive ((t (:foreground ,color_2 :background ,color_10))))
+ `(mode-line ((t (:foreground ,color_12 :background ,color_3))))
+ `(mode-line-inactive ((t (:foreground ,color_12 :background ,color_10))))
 
  `(show-paren-match ((t (:background ,color_2 :foreground ,color_4))))
  `(show-paren-mismatch ((t (:foreground ,color_1 :background ,color_11))))
