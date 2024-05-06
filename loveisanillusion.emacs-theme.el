@@ -54,6 +54,5 @@
  `(dired-warning ((t (:foreground ,color_11))))
  
 `(eshell-prompt ((t (:foreground ,color_7)))))
- ))
-
+ )
 (provide-theme 'loveisanillusion.emacs)
