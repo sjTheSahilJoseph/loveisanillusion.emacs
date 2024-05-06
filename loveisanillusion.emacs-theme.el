@@ -5,23 +5,23 @@
 (deftheme loveisanillusion.emacs "SJ the Sahil Joseph's Love is an Illusion for Emacs.")
 
 (let (
-      (color_1 "#c6c6c6")
-      (color_2 "#999999")
-      (color_3 "#151515")
-      (color_4 "#000000")
+      (color_1 "#c6c6c6") ;; General Text Color
+      (color_2 "#999999") ;; Little Dark Gray
+      (color_3 "#151515") ;; Dark Gray
+      (color_4 "#000000") ;; Black
       (color_5 "#ff9900")
       (color_6 "#26d726")
-      (color_7 "#00acff")
+      (color_7 "#00acff") ;; Comments primarily
       (color_8 "#540408")
       (color_9 "#f05624")
-      (color_10 "#0e0e0e")
+      (color_10 "#0e0e0e") ;; BG Primarily
       (color_11 "#aa0000")
   )
 
 (custom-theme-set-faces
  'loveisanillusion.emacs
 
- `(default ((t (:foreground ,color_1 :background ,color_4))))
+ `(default ((t (:foreground ,color_1 :background ,color_10))))
  `(font-lock-comment-face ((t (:foreground ,color_7))))
  `(font-lock-doc-face ((t (:foreground ,color_1))))
  `(font-lock-string-face ((t (:foreground ,color_6))))
@@ -31,17 +31,17 @@
  `(font-lock-builtin-face ((t (:foreground ,color_1))))
  `(font-lock-constant-face ((t (:foreground ,color_1))))
  `(font-lock-type-face ((t (:foreground ,color_5))))
- `(font-lock-preprocessor-face ((t (:foreground ,color_9))))
+ `(font-lock-preprocessor-face ((t (:foreground ,color_5))))
 
- `(mode-line ((t (:foreground ,color_2 :background ,color_10))))
+ `(mode-line ((t (:foreground ,color_2 :background ,color_3))))
  `(mode-line-inactive ((t (:foreground ,color_2 :background ,color_10))))
 
- `(show-paren-match ((t (:background ,color_2))))
+ `(show-paren-match ((t (:background ,color_2 :foreground ,color_4))))
  `(show-paren-mismatch ((t (:foreground ,color_1 :background ,color_11))))
 
  `(region ((t (:background ,color_8))))
 
- `(minibuffer-prompt ((t (:foreground ,color_9))))
+ `(minibuffer-prompt ((t (:foreground ,color_7))))
 
  `(dired-directory ((t (:foreground ,color_9))))
  `(dired-flagged ((t (:foreground ,color_2))))
