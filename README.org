@@ -1,2 +1,15 @@
-* SJ the Sahil Joseph's Love is An Illusion
-** For Emacs
+#+TITLE:     SJ the Sahil Joseph's Love is An Illusion
+#+AUTHOR:    SJ the Sahil Joseph
+#+EMAIL:     sjthesahiljoseph@gmail.com
+#+DESCRIPTION: SJ the Sahil Joseph's Love is An Illusion
+#+LANGUAGE:  en
+
+
+
+* Love is An Illusion
+    SJ's (me) theme for Emacs
+
+
+#+caption: Screenshot 1
+[[file:images/1.png]]
+
