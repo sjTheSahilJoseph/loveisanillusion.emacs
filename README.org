@@ -6,10 +6,12 @@
 
 
 
-* Love is An Illusion
-    SJ's (me) theme for Emacs
-
+* Screenshots
 
 #+caption: Screenshot 1
 [[file:images/1.png]]
+
+#+caption: Screenshot 2
+[[file:images/2.png]]
+
 
