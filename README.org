@@ -4,16 +4,10 @@
 #+DESCRIPTION: SJ the Sahil Joseph's Love is An Illusion
 #+LANGUAGE:  en
 
-
-
-** Screenshots
-
-
-#+caption: Screenshot 1
-[[file:images/1.png]]
-
-#+caption: Screenshot 2
-[[file:images/2.png]]
+#+begin_center
+A very basic, minimal, awesome theme \\
+made by sj, for emacs.
+#+end_center
 
 ** The idea behind loveisanillusin
 I personally don't like heavy syntax highlighting.
@@ -26,7 +20,22 @@ so I make then blue, because there is nothing in this theme blue.
 Also, no need to highlight every token, just the way I want.
 That's why, there is a very high change that it doesn't appeal you.
 
-#+begin_note
-    I made this theme for myself. But feel free to use it if you want to.
-#+end_note
+
+** Screenshots
+File 1
+#+caption: Screenshot 1
+[[file:images/1.png]]
+
+File 2
+#+caption: Screenshot 2
+[[file:images/2.png]]
+
+
+I made this theme for myself. But feel free to use it if you want to.
+
+---
+
+Thank You
+- SJ
+
 
