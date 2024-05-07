@@ -6,7 +6,8 @@
 
 
 
-* Screenshots
+** Screenshots
+
 
 #+caption: Screenshot 1
 [[file:images/1.png]]
@@ -14,4 +15,19 @@
 #+caption: Screenshot 2
 [[file:images/2.png]]
 
+** The idea behind loveisanillusin
+I personally don't like heavy syntax highlighting.
+What I wanted is a very basic, color set.
+So I created my own theme. Here I've included my
+favorite colors.
+Like for example, I like the comments to be different than anything,
+so I make then blue, because there is nothing in this theme blue.
+
+Also, no need to highlight every token, just the way I want.
+That's why, there is a very high change that it doesn't appeal you.
+
+#+begin_note
+    I made this theme for myself.
+    But feel free to use it if you want to.
+#+end_note
 
