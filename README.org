@@ -27,7 +27,6 @@ Also, no need to highlight every token, just the way I want.
 That's why, there is a very high change that it doesn't appeal you.
 
 #+begin_note
-    I made this theme for myself.
-    But feel free to use it if you want to.
+    I made this theme for myself. But feel free to use it if you want to.
 #+end_note
 
