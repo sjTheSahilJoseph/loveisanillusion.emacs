@@ -1,58 +1,66 @@
 ;; SJ the Sahil Joseph's Love is An Illusion For Emacs.
 ;; I've created this theme for my emacs, but feel free to use this if you want.
 
-
-(deftheme loveisanillusion.emacs "SJ the Sahil Joseph's Love is an Illusion for Emacs.")
-
-(let (
-      (color_1 "#c6c6c6") ;; General Text Color
-      (color_2 "#999999") ;; Little Dark Gray
-      (color_3 "#151515") ;; Dark Gray
-      (color_4 "#000000") ;; Black
-      (color_5 "#ff9900")
-      (color_6 "#26d726")
-      (color_7 "#00acff") ;; Comments primarily
-      (color_8 "#540408")
-      (color_9 "#f05624")
-      (color_10 "#0e0e0e") ;; BG Primarily
-      (color_11 "#aa0000")
-      (color_12 "#555555") ;; Dim Text
-  )
+(deftheme loveisanillusion.emacs
+  "Created May 2024.")
 
 (custom-theme-set-faces
  'loveisanillusion.emacs
+ '(default ((t (:family "Consolas" :foundry "outline" :width normal :height 113 :weight regular :slant normal :underline nil :overline nil :extend nil :strike-through nil :box nil :inverse-video nil :foreground "#c6c6c6" :background "#0e0e0e" :stipple nil :inherit nil))))
+ '(cursor ((t (:background "#26d726"))))
+ '(fixed-pitch ((t (:family "Monospace"))))
+ '(variable-pitch ((((type w32)) (:foundry "outline" :family "Arial")) (t (:family "Sans Serif"))))
+ '(escape-glyph ((((background dark)) (:foreground "cyan")) (((type pc)) (:foreground "magenta")) (t (:foreground "brown"))))
+ '(homoglyph ((((background dark)) (:foreground "cyan")) (((type pc)) (:foreground "magenta")) (t (:foreground "brown"))))
+ '(minibuffer-prompt ((t (:foreground "#00acff"))))
+ '(highlight ((((class color) (min-colors 88) (background light)) (:background "darkseagreen2")) (((class color) (min-colors 88) (background dark)) (:background "darkolivegreen")) (((class color) (min-colors 16) (background light)) (:background "darkseagreen2")) (((class color) (min-colors 16) (background dark)) (:background "darkolivegreen")) (((class color) (min-colors 8)) (:foreground "black" :background "green")) (t (:inverse-video t))))
+ '(region ((t (:extend t :background "#540408"))))
+ '(shadow ((((class color grayscale) (min-colors 88) (background light)) (:foreground "grey50")) (((class color grayscale) (min-colors 88) (background dark)) (:foreground "grey70")) (((class color) (min-colors 8) (background light)) (:foreground "green")) (((class color) (min-colors 8) (background dark)) (:foreground "yellow"))))
+ '(secondary-selection ((((class color) (min-colors 88) (background light)) (:extend t :background "yellow1")) (((class color) (min-colors 88) (background dark)) (:extend t :background "SkyBlue4")) (((class color) (min-colors 16) (background light)) (:extend t :background "yellow")) (((class color) (min-colors 16) (background dark)) (:extend t :background "SkyBlue4")) (((class color) (min-colors 8)) (:extend t :foreground "black" :background "cyan")) (t (:inverse-video t))))
+ '(trailing-whitespace ((((class color) (background light)) (:background "red1")) (((class color) (background dark)) (:background "red1")) (t (:inverse-video t))))
+ '(font-lock-bracket-face ((t (:inherit (font-lock-punctuation-face)))))
+ '(font-lock-builtin-face ((t (:foreground "#c6c6c6"))))
+ '(font-lock-comment-delimiter-face ((default (:inherit (font-lock-comment-face)))))
+ '(font-lock-comment-face ((t (:foreground "#00acff"))))
+ '(font-lock-constant-face ((t (:foreground "#26d726"))))
+ '(font-lock-delimiter-face ((t (:inherit (font-lock-punctuation-face)))))
+ '(font-lock-doc-face ((t (:foreground "#c6c6c6"))))
+ '(font-lock-doc-markup-face ((t (:inherit (font-lock-constant-face)))))
+ '(font-lock-escape-face ((t (:inherit (font-lock-regexp-grouping-backslash)))))
+ '(font-lock-function-call-face ((t (:inherit (font-lock-function-name-face)))))
+ '(font-lock-function-name-face ((t (:foreground "#c6c6c6"))))
+ '(font-lock-keyword-face ((t (:foreground "#ff9900"))))
+ '(font-lock-negation-char-face ((t nil)))
+ '(font-lock-number-face ((t nil)))
+ '(font-lock-misc-punctuation-face ((t (:inherit (font-lock-punctuation-face)))))
+ '(font-lock-operator-face ((t nil)))
+ '(font-lock-preprocessor-face ((t (:foreground "#ff9900"))))
+ '(font-lock-property-name-face ((t (:inherit (font-lock-variable-name-face)))))
+ '(font-lock-property-use-face ((t (:inherit (font-lock-property-name-face)))))
+ '(font-lock-punctuation-face ((t nil)))
+ '(font-lock-regexp-grouping-backslash ((t (:inherit (bold)))))
+ '(font-lock-regexp-grouping-construct ((t (:inherit (bold)))))
+ '(font-lock-string-face ((t (:foreground "#26d726"))))
+ '(font-lock-type-face ((t (:foreground "#ff9900"))))
+ '(font-lock-variable-name-face ((t (:foreground "#c6c6c6"))))
+ '(font-lock-variable-use-face ((t (:inherit (font-lock-variable-name-face)))))
+ '(font-lock-warning-face ((t (:inherit (error)))))
+ '(button ((t (:inherit (link)))))
+ '(link ((((class color) (min-colors 88) (background light)) (:underline (:color foreground-color :style line :position nil) :foreground "RoyalBlue3")) (((class color) (background light)) (:underline (:color foreground-color :style line :position nil) :foreground "blue")) (((class color) (min-colors 88) (background dark)) (:underline (:color foreground-color :style line :position nil) :foreground "cyan1")) (((class color) (background dark)) (:underline (:color foreground-color :style line :position nil) :foreground "cyan")) (t (:inherit (underline)))))
+ '(link-visited ((default (:inherit (link))) (((class color) (background light)) (:foreground "magenta4")) (((class color) (background dark)) (:foreground "violet"))))
+ '(fringe ((((class color) (background light)) (:background "grey95")) (((class color) (background dark)) (:background "grey10")) (t (:background "gray"))))
+ '(header-line ((default (:inherit (mode-line))) (((type tty)) (:underline (:color foreground-color :style line :position nil) :inverse-video nil)) (((class color grayscale) (background light)) (:box nil :foreground "grey20" :background "grey90")) (((class color grayscale) (background dark)) (:box nil :foreground "grey90" :background "grey20")) (((class mono) (background light)) (:underline (:color foreground-color :style line :position nil) :box nil :inverse-video nil :foreground "black" :background "white")) (((class mono) (background dark)) (:underline (:color foreground-color :style line :position nil) :box nil :inverse-video nil :foreground "white" :background "black"))))
+ '(tooltip ((t (:foreground "systeminfotext" :background "systeminfowindow" :inherit (variable-pitch)))))
+ '(mode-line ((t (:foreground "#555555" :background "#151515"))))
+ '(mode-line-buffer-id ((t (:weight bold))))
+ '(mode-line-emphasis ((t (:weight bold))))
+ '(mode-line-highlight ((((supports :box t) (class color) (min-colors 88)) (:box (:line-width (2 . 2) :color "grey40" :style released-button))) (t (:inherit (highlight)))))
+ '(mode-line-inactive ((t (:foreground "#555555" :background "#0e0e0e"))))
+ '(isearch ((((class color) (min-colors 88) (background light)) (:foreground "lightskyblue1" :background "magenta3")) (((class color) (min-colors 88) (background dark)) (:foreground "brown4" :background "palevioletred2")) (((class color) (min-colors 16)) (:foreground "cyan1" :background "magenta4")) (((class color) (min-colors 8)) (:foreground "cyan1" :background "magenta4")) (t (:inverse-video t))))
+ '(isearch-fail ((((class color) (min-colors 88) (background light)) (:background "RosyBrown1")) (((class color) (min-colors 88) (background dark)) (:background "red4")) (((class color) (min-colors 16)) (:background "red")) (((class color) (min-colors 8)) (:background "red")) (((class color grayscale)) (:foreground "grey")) (t (:inverse-video t))))
+ '(lazy-highlight ((((class color) (min-colors 88) (background light)) (:distant-foreground "black" :background "paleturquoise")) (((class color) (min-colors 88) (background dark)) (:distant-foreground "white" :background "paleturquoise4")) (((class color) (min-colors 16)) (:distant-foreground "white" :background "turquoise3")) (((class color) (min-colors 8)) (:distant-foreground "white" :background "turquoise3")) (t (:underline (:color foreground-color :style line :position nil)))))
+ '(match ((t (:background "RoyalBlue3"))))
+ '(next-error ((t (:inherit (region)))))
+ '(query-replace ((t (:inherit (isearch))))))
 
- `(default ((t (:foreground ,color_1 :background ,color_10))))
- `(font-lock-comment-face ((t (:foreground ,color_7))))
- `(font-lock-doc-face ((t (:foreground ,color_1))))
- `(font-lock-string-face ((t (:foreground ,color_6))))
- `(font-lock-keyword-face ((t (:foreground ,color_5))))
- `(font-lock-function-name-face ((t (:foreground ,color_1))))
- `(font-lock-variable-name-face ((t (:foreground ,color_1))))
- `(font-lock-builtin-face ((t (:foreground ,color_1))))
- `(font-lock-constant-face ((t (:foreground ,color_6))))
- `(font-lock-type-face ((t (:foreground ,color_5))))
- `(font-lock-preprocessor-face ((t (:foreground ,color_5))))
-
- `(mode-line ((t (:foreground ,color_12 :background ,color_3))))
- `(mode-line-inactive ((t (:foreground ,color_12 :background ,color_10))))
-
- `(show-paren-match ((t (:background ,color_2 :foreground ,color_4))))
- `(show-paren-mismatch ((t (:foreground ,color_1 :background ,color_11))))
-
- `(region ((t (:background ,color_8))))
-
- `(minibuffer-prompt ((t (:foreground ,color_7))))
-
- `(dired-directory ((t (:foreground ,color_9))))
- `(dired-flagged ((t (:foreground ,color_2))))
- `(dired-header ((t (:foreground ,color_1))))
- `(dired-ignored ((t (:foreground ,color_2))))
- `(dired-marked ((t (:foreground ,color_9))))
- `(dired-perm-write ((t (:foreground ,color_6))))
- `(dired-symlink ((t (:foreground ,color_7))))
- `(dired-warning ((t (:foreground ,color_11))))
- 
-`(eshell-prompt ((t (:foreground ,color_7)))))
- )
 (provide-theme 'loveisanillusion.emacs)
