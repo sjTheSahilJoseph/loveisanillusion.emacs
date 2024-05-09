@@ -17,6 +17,8 @@
       (color_10 "#0e0e0e") ;; BG Primarily
       (color_11 "#aa0000")
       (color_12 "#555555") ;; Dim Text
+      (color_13 "#ff0000")
+      (color_14 "#333")
   )
 
 (custom-theme-set-faces
@@ -37,22 +39,23 @@
  `(mode-line ((t (:foreground ,color_12 :background ,color_3))))
  `(mode-line-inactive ((t (:foreground ,color_12 :background ,color_10))))
 
- `(show-paren-match ((t (:background ,color_2 :foreground ,color_4))))
- `(show-paren-mismatch ((t (:foreground ,color_1 :background ,color_11))))
+ `(show-paren-match ((t (:background ,color_10 :foreground ,color_9))))
+ `(show-paren-mismatch ((t (:foreground ,color_1 :background ,color_13))))
 
  `(region ((t (:background ,color_8))))
 
- `(minibuffer-prompt ((t (:foreground ,color_7))))
+ `(minibuffer-prompt ((t (:foreground ,color_13))))
 
  `(dired-directory ((t (:foreground ,color_9))))
  `(dired-flagged ((t (:foreground ,color_2))))
  `(dired-header ((t (:foreground ,color_1))))
  `(dired-ignored ((t (:foreground ,color_2))))
- `(dired-marked ((t (:foreground ,color_9))))
+ `(dired-marked ((t (:foreground ,color_7))))
  `(dired-perm-write ((t (:foreground ,color_6))))
  `(dired-symlink ((t (:foreground ,color_7))))
  `(dired-warning ((t (:foreground ,color_11))))
  
 `(eshell-prompt ((t (:foreground ,color_7)))))
- )
+)
+
 (provide-theme 'loveisanillusion.emacs)
