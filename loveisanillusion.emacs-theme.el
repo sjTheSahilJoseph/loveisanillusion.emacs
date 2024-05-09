@@ -44,7 +44,7 @@
 
  `(region ((t (:background ,color_8))))
 
- `(minibuffer-prompt ((t (:foreground ,color_17))))
+ `(minibuffer-prompt ((t (:foreground ,color_7))))
 
  `(dired-directory ((t (:foreground ,color_9))))
  `(dired-flagged ((t (:foreground ,color_2))))
