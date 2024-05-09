@@ -30,6 +30,11 @@ File 2
 #+caption: Screenshot 2
 [[file:images/2.png]]
 
+File 3
+#+caption: Screenshot 3
+[[file:images/3.png]]
+
+
 
 I made this theme for myself. But feel free to use it if you want to.
 
