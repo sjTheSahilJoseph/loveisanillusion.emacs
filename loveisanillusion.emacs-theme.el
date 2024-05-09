@@ -44,14 +44,14 @@
 
  `(region ((t (:background ,color_8))))
 
- `(minibuffer-prompt ((t (:foreground ,color_13))))
+ `(minibuffer-prompt ((t (:foreground ,color_17))))
 
  `(dired-directory ((t (:foreground ,color_9))))
  `(dired-flagged ((t (:foreground ,color_2))))
  `(dired-header ((t (:foreground ,color_1))))
  `(dired-ignored ((t (:foreground ,color_2))))
  `(dired-marked ((t (:foreground ,color_7))))
- `(dired-perm-write ((t (:foreground ,color_6))))
+ `(dired-perm-write ((t (:foreground ,color_1))))
  `(dired-symlink ((t (:foreground ,color_7))))
  `(dired-warning ((t (:foreground ,color_11))))
  
