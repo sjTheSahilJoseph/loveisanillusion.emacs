@@ -9,7 +9,7 @@ A very basic, minimal, awesome theme \\
 made by sj, for emacs.
 #+end_center
 
-** The idea behind loveisanillusin
+** The idea behind loveisanillusion
 I personally don't like heavy syntax highlighting.
 What I like is a very basic, color set.
 So I created my own theme.
