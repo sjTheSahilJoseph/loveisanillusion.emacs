@@ -29,7 +29,7 @@ File 3
 
 File 4
 #+caption: Screenshot 4
-file:images/4.png
+[[file:images/4.png]]
 
 But feel free to use it if you want to.
 
