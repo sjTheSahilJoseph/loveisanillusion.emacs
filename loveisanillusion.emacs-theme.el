@@ -36,6 +36,10 @@
  `(font-lock-type-face ((t (:foreground ,color_5))))
  `(font-lock-preprocessor-face ((t (:foreground ,color_5))))
 
+`(web-mode-html-tag-face ((t (:foreground ,color_5))))
+ `(web-mode-html-attr-name-face ((t (:foreground ,color_1))))
+ `(web-mode-html-attr-value-face ((t (:foreground ,color_6))))
+
  `(mode-line ((t (:foreground ,color_12 :background ,color_3))))
  `(mode-line-inactive ((t (:foreground ,color_12 :background ,color_10))))
 
