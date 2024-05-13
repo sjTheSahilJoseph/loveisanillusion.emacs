@@ -19,6 +19,7 @@
       (color_12 "#555555") ;; Dim Text
       (color_13 "#ff0000")
       (color_14 "#333")
+	  (color_15 "#ffffff")
   )
 
 (custom-theme-set-faces
@@ -43,7 +44,7 @@
  `(mode-line ((t (:foreground ,color_12 :background ,color_3))))
  `(mode-line-inactive ((t (:foreground ,color_12 :background ,color_10))))
 
- `(show-paren-match ((t (:background ,color_10 :foreground ,color_9))))
+ `(show-paren-match ((t (:background ,color_10 :foreground ,color_15))))
  `(show-paren-mismatch ((t (:foreground ,color_1 :background ,color_13))))
 
  `(region ((t (:background ,color_8))))
