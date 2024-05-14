@@ -44,6 +44,9 @@
  `(mode-line ((t (:foreground ,color_12 :background ,color_3))))
  `(mode-line-inactive ((t (:foreground ,color_12 :background ,color_10))))
 
+ `(emmet-preview-output ((t (:background ,color_8 :foreground ,color_1))))
+ `(emmet-preview-guide ((t (:background ,color_8 :foreground ,color_1))))
+
  `(show-paren-match ((t (:background ,color_10 :foreground ,color_15))))
  `(show-paren-mismatch ((t (:foreground ,color_1 :background ,color_13))))
 
