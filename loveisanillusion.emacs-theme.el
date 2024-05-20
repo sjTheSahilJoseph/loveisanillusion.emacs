@@ -11,8 +11,8 @@
       (color_4 "#000000") ;; Black
       (color_5 "#ff9900")
       (color_6 "#26d726")
-      (color_7 "#6f00ff") ;; Comments primarily
-      (color_8 "#330003")
+      (color_7 "#00acfc") ;; Comments primarily
+      (color_8 "#540408")
       (color_9 "#f05624")
       (color_10 "#0e0e0e") ;; BG Primarily
       (color_11 "#aa0000")
