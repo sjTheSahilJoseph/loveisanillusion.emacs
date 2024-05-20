@@ -11,8 +11,8 @@
       (color_4 "#000000") ;; Black
       (color_5 "#ff9900")
       (color_6 "#26d726")
-      (color_7 "#00acff") ;; Comments primarily
-      (color_8 "#540408")
+      (color_7 "#6f00ff") ;; Comments primarily
+      (color_8 "#330003")
       (color_9 "#f05624")
       (color_10 "#0e0e0e") ;; BG Primarily
       (color_11 "#aa0000")
@@ -20,50 +20,50 @@
       (color_13 "#ff0000")
       (color_14 "#333")
 	  (color_15 "#ffffff")
+	  )
+
+  (custom-theme-set-faces
+   'loveisanillusion.emacs
+
+   `(default ((t (:foreground ,color_1 :background ,color_10))))
+   `(font-lock-comment-face ((t (:foreground ,color_7))))
+   `(font-lock-doc-face ((t (:foreground ,color_1))))
+   `(font-lock-string-face ((t (:foreground ,color_6))))
+   `(font-lock-keyword-face ((t (:foreground ,color_5))))
+   `(font-lock-function-name-face ((t (:foreground ,color_1))))
+   `(font-lock-variable-name-face ((t (:foreground ,color_1))))
+   `(font-lock-builtin-face ((t (:foreground ,color_1))))
+   `(font-lock-constant-face ((t (:foreground ,color_6))))
+   `(font-lock-type-face ((t (:foreground ,color_5))))
+   `(font-lock-preprocessor-face ((t (:foreground ,color_5))))
+
+   `(web-mode-html-tag-face ((t (:foreground ,color_5))))
+   `(web-mode-html-attr-name-face ((t (:foreground ,color_1))))
+   `(web-mode-html-attr-value-face ((t (:foreground ,color_6))))
+
+   `(mode-line ((t (:foreground ,color_12 :background ,color_3))))
+   `(mode-line-inactive ((t (:foreground ,color_12 :background ,color_10))))
+
+   `(emmet-preview-output ((t (:background ,color_8 :foreground ,color_1))))
+   `(emmet-preview-guide ((t (:background ,color_8 :foreground ,color_1))))
+
+   `(show-paren-match ((t (:background ,color_10 :foreground ,color_15))))
+   `(show-paren-mismatch ((t (:foreground ,color_1 :background ,color_13))))
+
+   `(region ((t (:background ,color_8))))
+
+   `(minibuffer-prompt ((t (:foreground ,color_7))))
+
+   `(dired-directory ((t (:foreground ,color_9))))
+   `(dired-flagged ((t (:foreground ,color_2))))
+   `(dired-header ((t (:foreground ,color_1))))
+   `(dired-ignored ((t (:foreground ,color_2))))
+   `(dired-marked ((t (:foreground ,color_7))))
+   `(dired-perm-write ((t (:foreground ,color_1))))
+   `(dired-symlink ((t (:foreground ,color_7))))
+   `(dired-warning ((t (:foreground ,color_11))))
+   
+   `(eshell-prompt ((t (:foreground ,color_7)))))
   )
-
-(custom-theme-set-faces
- 'loveisanillusion.emacs
-
- `(default ((t (:foreground ,color_1 :background ,color_10))))
- `(font-lock-comment-face ((t (:foreground ,color_7))))
- `(font-lock-doc-face ((t (:foreground ,color_1))))
- `(font-lock-string-face ((t (:foreground ,color_6))))
- `(font-lock-keyword-face ((t (:foreground ,color_5))))
- `(font-lock-function-name-face ((t (:foreground ,color_1))))
- `(font-lock-variable-name-face ((t (:foreground ,color_1))))
- `(font-lock-builtin-face ((t (:foreground ,color_1))))
- `(font-lock-constant-face ((t (:foreground ,color_6))))
- `(font-lock-type-face ((t (:foreground ,color_5))))
- `(font-lock-preprocessor-face ((t (:foreground ,color_5))))
-
-`(web-mode-html-tag-face ((t (:foreground ,color_5))))
- `(web-mode-html-attr-name-face ((t (:foreground ,color_1))))
- `(web-mode-html-attr-value-face ((t (:foreground ,color_6))))
-
- `(mode-line ((t (:foreground ,color_12 :background ,color_3))))
- `(mode-line-inactive ((t (:foreground ,color_12 :background ,color_10))))
-
- `(emmet-preview-output ((t (:background ,color_8 :foreground ,color_1))))
- `(emmet-preview-guide ((t (:background ,color_8 :foreground ,color_1))))
-
- `(show-paren-match ((t (:background ,color_10 :foreground ,color_15))))
- `(show-paren-mismatch ((t (:foreground ,color_1 :background ,color_13))))
-
- `(region ((t (:background ,color_8))))
-
- `(minibuffer-prompt ((t (:foreground ,color_7))))
-
- `(dired-directory ((t (:foreground ,color_9))))
- `(dired-flagged ((t (:foreground ,color_2))))
- `(dired-header ((t (:foreground ,color_1))))
- `(dired-ignored ((t (:foreground ,color_2))))
- `(dired-marked ((t (:foreground ,color_7))))
- `(dired-perm-write ((t (:foreground ,color_1))))
- `(dired-symlink ((t (:foreground ,color_7))))
- `(dired-warning ((t (:foreground ,color_11))))
- 
-`(eshell-prompt ((t (:foreground ,color_7)))))
-)
 
 (provide-theme 'loveisanillusion.emacs)
