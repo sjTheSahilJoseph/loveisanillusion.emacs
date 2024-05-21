@@ -19,6 +19,7 @@
       (color_real_red "#ff0000")
       (color_14 "#333")
 	  (color_white "#ffffff")
+	  (color_green_secondary "#007700")
 	  )
 
   (custom-theme-set-faces
@@ -52,6 +53,11 @@
    `(region ((t (:background ,color_3))))
    
    `(minibuffer-prompt ((t (:foreground ,color_7))))
+
+   `(isearch ((t (:background ,color_green_secondary :foreground ,color_1))))
+   `(query-replace ((t (:background ,color_green_secondary :foreground ,color_1))))
+   `(lazy-highlight ((t (:background ,color_green_secondary :foreground ,color_1))))
+   `(escape-glyph ((t (:background ,color_green_secondary :foreground ,color_1))))
 
    `(dired-directory ((t (:foreground ,color_9))))
    `(dired-flagged ((t (:foreground ,color_2))))
