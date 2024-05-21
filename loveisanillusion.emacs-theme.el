@@ -12,14 +12,14 @@
       (color_5 "#ff9900")
       (color_6 "#26d726")
       (color_7 "#00acfc") ;; Comments primarily
-      (color_8 "#540408")
+      (maroon "#420000")
       (color_9 "#f05624")
       (color_10 "#0e0e0e") ;; BG Primarily
       (color_11 "#aa0000")
       (color_12 "#555555") ;; Dim Text
-      (color_13 "#ff0000")
+      (real_red "#ff0000")
       (color_14 "#333")
-	  (color_15 "#ffffff")
+	  (white "#ffffff")
 	  )
 
   (custom-theme-set-faces
@@ -44,14 +44,14 @@
    `(mode-line ((t (:foreground ,color_12 :background ,color_3))))
    `(mode-line-inactive ((t (:foreground ,color_12 :background ,color_10))))
 
-   `(emmet-preview-output ((t (:background ,color_8 :foreground ,color_1))))
-   `(emmet-preview-guide ((t (:background ,color_8 :foreground ,color_1))))
+   `(emmet-preview-output ((t (:background ,maroon :foreground ,color_1))))
+   `(emmet-preview-guide ((t (:background ,maroon :foreground ,color_1))))
 
-   `(show-paren-match ((t (:background ,color_10 :foreground ,color_15))))
-   `(show-paren-mismatch ((t (:foreground ,color_1 :background ,color_13))))
+   `(show-paren-match ((t (:background ,color_10 :foreground ,white))))
+   `(show-paren-mismatch ((t (:foreground ,color_1 :background ,real_red))))
 
-   `(region ((t (:background ,color_8))))
-
+   `(region ((t (:background ,maroon))))
+   
    `(minibuffer-prompt ((t (:foreground ,color_7))))
 
    `(dired-directory ((t (:foreground ,color_9))))
