@@ -50,7 +50,7 @@
    `(show-paren-match ((t (:background ,color_10 :foreground ,color_15))))
    `(show-paren-mismatch ((t (:foreground ,color_1 :background ,color_13))))
 
-   `(region ((t (:background ,color_8))))
+   `(region ((t (:background nil))))
 
    `(minibuffer-prompt ((t (:foreground ,color_7))))
 
