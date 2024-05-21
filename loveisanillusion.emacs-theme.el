@@ -12,7 +12,6 @@
       (color_5 "#ff9900")
       (color_6 "#26d726")
       (color_7 "#00acfc") ;; Comments primarily
-      (color_maroon "#400000")
       (color_9 "#f05624")
       (color_10 "#0e0e0e") ;; BG Primarily
       (color_11 "#aa0000")
@@ -50,7 +49,7 @@
    `(show-paren-match ((t (:background ,color_10 :foreground ,color_white))))
    `(show-paren-mismatch ((t (:foreground ,color_1 :background ,color_real_red))))
 
-   `(region ((t (:background nil))))
+   `(region ((t (:background ,color_3))))
    
    `(minibuffer-prompt ((t (:foreground ,color_7))))
 
