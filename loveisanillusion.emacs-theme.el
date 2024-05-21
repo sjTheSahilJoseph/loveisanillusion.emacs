@@ -35,7 +35,7 @@
    `(font-lock-builtin-face ((t (:foreground ,color_1))))
    `(font-lock-constant-face ((t (:foreground ,color_6))))
    `(font-lock-type-face ((t (:foreground ,color_5))))
-   `(font-lock-preprocessor-face ((t (:foreground ,color_5))))
+   `(font-lock-preprocessor-face ((t (:foreground ,color_9))))
 
    `(web-mode-html-tag-face ((t (:foreground ,color_5))))
    `(web-mode-html-attr-name-face ((t (:foreground ,color_1))))
@@ -50,7 +50,7 @@
    `(show-paren-match ((t (:background ,color_10 :foreground ,color_15))))
    `(show-paren-mismatch ((t (:foreground ,color_1 :background ,color_13))))
 
-   `(region ((t (:background nil))))
+   `(region ((t (:background ,color_8))))
 
    `(minibuffer-prompt ((t (:foreground ,color_7))))
 
