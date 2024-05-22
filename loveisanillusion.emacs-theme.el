@@ -5,29 +5,28 @@
 (deftheme loveisanillusion.emacs "SJ the Sahil Joseph's Love is an Illusion for Emacs.")
 
 (let (
-      (color_1 "#c6c6c6") ;; General Text Color
-      (color_2 "#999999") ;; Little Dark Gray
-      (color_3 "#151515") ;; Dark Gray
-      (color_4 "#000000") ;; Black
-      (color_5 "#ff9900")
-      (color_6 "#26d726")
-      (color_7 "#00acfc") ;; Comments primarily
-      (color_9 "#f05624")
-      (color_10 "#0e0e0e") ;; BG Primarily
-      (color_11 "#aa0000")
-      (color_12 "#555555") ;; Dim Text
-      (color_real_red "#ff0000")
-      (color_14 "#333")
-	  (color_white "#ffffff")
-	  (color_green_secondary "#007700")
+      (main_foreground_color "#c6c6c6") ;; General Text Color
+      (secondary_foreground_color "#999999")
+      (main_modeline_background_color "#151515")
+      (pure_black_color "#000000")
+      (main_keyword_color "#ff9900")
+      (main_strings_color "#26d726")
+      (main_comment_color "#00acfc")
+      (main_preprocessor_color "#f05624")
+      (main_background_color "#0e0e0e")
+      (main_highlight_color "#aa0000")
+      (main_modeline_foreground_color "#555555")
+      (pure_red_color "#ff0000")
+	  (pure_white_color "#ffffff")
+	  (main_iSearch_color "#004400")
 	  )
 
   (custom-theme-set-faces
    'loveisanillusion.emacs
 
-   `(default ((t (:foreground ,color_1 :background ,color_10))))
-   `(font-lock-comment-face ((t (:foreground ,color_7))))
-   `(font-lock-doc-face ((t (:foreground ,color_1))))
+   `(default ((t (:foreground ,main_foreground_color :background ,main_background_color))))
+   `(font-lock-comment-face ((t (:foreground ,main_comment_color))))
+   `(font-lock-doc-face ((t (:foreground ,main_foreground_color))))
    `(font-lock-string-face ((t (:foreground ,color_6))))
    `(font-lock-keyword-face ((t (:foreground ,color_5))))
    `(font-lock-function-name-face ((t (:foreground ,color_1))))
