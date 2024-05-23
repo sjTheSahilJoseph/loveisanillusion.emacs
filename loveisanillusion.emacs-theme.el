@@ -37,15 +37,8 @@
 		`(font-lock-type-face ((t (:foreground ,main_keyword_color))))
 		`(font-lock-preprocessor-face ((t (:foreground ,main_preprocessor_color))))
 
-		`(web-mode-html-tag-face ((t (:foreground ,main_keyword_color))))
-		`(web-mode-html-attr-name-face ((t (:foreground ,main_foreground_color))))
-		`(web-mode-html-attr-value-face ((t (:foreground ,main_strings_color))))
-
 		`(mode-line ((t (:foreground ,main_modeline_foreground_color :background ,main_modeline_background_color))))
 		`(mode-line-inactive ((t (:foreground ,main_modeline_foreground_color :background ,main_modeline_background_color))))
-
-		`(emmet-preview-output ((t (:background ,main_highlight_color :foreground ,main_foreground_color))))
-		`(emmet-preview-guide ((t (:background ,main_highlight_color :foreground ,main_foreground_color))))
 
 		`(show-paren-match ((t (:background ,main_background_color :foreground ,pure_white_color))))
 		`(show-paren-mismatch ((t (:foreground ,main_foreground_color :background ,pure_red_color))))
