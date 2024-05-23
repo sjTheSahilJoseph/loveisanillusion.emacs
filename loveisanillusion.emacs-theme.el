@@ -7,8 +7,6 @@
 (let (
 		 (main_foreground_color "#c6c6c6") ;; General Text Color
 		 (secondary_foreground_color "#999999")
-		 (main_modeline_background_color "#151515")
-		 (pure_black_color "#000000")
 		 (main_keyword_color "#ff9900")
 		 (main_strings_color "#26d726")
 		 (main_comment_color "#00acfc")
@@ -16,9 +14,11 @@
 		 (main_background_color "#0e0e0e")
 		 (main_highlight_color "#550000")
 		 (main_modeline_foreground_color "#555555")
-		 (pure_red_color "#ff0000")
-		 (pure_white_color "#ffffff")
+		 (main_modeline_background_color "#151515")
 		 (main_iSearch_color "#004400")
+		 (pure_black_color "#000000")
+		 (pure_white_color "#ffffff")
+		 (pure_red_color "#ff0000")
 		 )
 
 	(custom-theme-set-faces
