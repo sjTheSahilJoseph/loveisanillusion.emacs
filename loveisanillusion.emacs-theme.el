@@ -49,7 +49,7 @@
    `(show-paren-match ((t (:background ,main_background_color :foreground ,pure_white_color))))
    `(show-paren-mismatch ((t (:foreground ,main_foreground_color :background ,pure_red_color))))
 
-   `(region ((t (:background ,main_modeline_background_color))))
+   `(region ((t (:background ,main_highlight_color))))
    
    `(minibuffer-prompt ((t (:foreground ,main_comment_color))))
 
