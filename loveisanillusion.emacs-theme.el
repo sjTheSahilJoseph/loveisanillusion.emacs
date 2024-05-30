@@ -9,7 +9,7 @@
 		 (secondary_foreground_color "#999999")
 		 (main_keyword_color "#ff9900")
 		 (main_strings_color "#26d726")
-		 (main_comment_color "#00acfc")
+		 (main_comment_color "#b800fc")
 		 (main_preprocessor_color "#f05624")
 		 (main_background_color "#0e0e0e")
 		 (main_highlight_color "#550000")
@@ -45,7 +45,7 @@
 
 		`(region ((t (:background ,main_highlight_color))))
 		
-		`(minibuffer-prompt ((t (:foreground ,main_comment_color))))
+		`(minibuffer-prompt ((t (:foreground ,main_strings_color))))
 
 		`(isearch ((t (:background ,main_iSearch_color :foreground ,main_foreground_color))))
 		`(query-replace ((t (:background ,main_iSearch_color :foreground ,main_foreground_color))))
@@ -85,7 +85,7 @@
 
 		
 		
-		`(eshell-prompt ((t (:foreground ,main_comment_color)))))
+		`(eshell-prompt ((t (:foreground ,main_strings_color)))))
 	)
 
 (provide-theme 'loveisanillusion.emacs)
