@@ -82,8 +82,6 @@
 		`(org-agenda-date-weekend ((t (:foreground "MediumPurple3" :weight bold))))
 		`(org-agenda-date-today ((t (:foreground "MediumPurple1" :weight bold))))
 		`(org-agenda-done ((t (:foreground "PaleGreen4"))))
-
-		
 		
 		`(eshell-prompt ((t (:foreground ,main_strings_color)))))
 	)
