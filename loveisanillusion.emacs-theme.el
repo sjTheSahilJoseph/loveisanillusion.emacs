@@ -83,6 +83,10 @@
 		`(org-agenda-date-today ((t (:foreground "MediumPurple1" :weight bold))))
 		`(org-agenda-done ((t (:foreground "PaleGreen4"))))
 		
+		`(completions-highlight ((t (:foreground ,main_foreground_color :background ,main_highlight_color))))
+		`(highlight ((t (:foreground ,main_foreground_color :background ,main_highlight_color))))
+		`(hl-line ((t (:foreground ,main_foreground_color :background ,main_highlight_color))))
+		
 		`(eshell-prompt ((t (:foreground ,main_strings_color)))))
 	)
 
