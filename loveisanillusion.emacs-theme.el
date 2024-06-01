@@ -9,7 +9,7 @@
 		 (secondary_foreground_color "#999999")
 		 (main_keyword_color "#ff9900")
 		 (main_strings_color "#26d726")
-		 (main_comment_color "#b800fc")
+		 (main_comment_color "#00acfc")
 		 (main_preprocessor_color "#f05624")
 		 (main_background_color "#0e0e0e")
 		 (main_highlight_color "#550000")
