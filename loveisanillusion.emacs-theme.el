@@ -12,7 +12,7 @@
 		 (main_comment_color "#00acfc")
 		 (main_preprocessor_color "#f05624")
 		 (main_background_color "#0e0e0e")
-		 (main_highlight_color "#550000")
+		 (main_highlight_color "#300200")
 		 (main_modeline_foreground_color "#555555")
 		 (main_modeline_background_color "#151515")
 		 (main_iSearch_color "#004400")
