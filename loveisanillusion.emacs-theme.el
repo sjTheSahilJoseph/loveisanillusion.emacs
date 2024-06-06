@@ -8,11 +8,11 @@
 		 (main_foreground_color "#c9c9c9")
 		 (secondary_foreground_color "#999999")
 		 (main_keyword_color "#ee8800")
-		 (main_strings_color "#ff0000")
-		 (main_comment_color "#00aa00")
+		 (main_strings_color "#00aa00")
+		 (main_comment_color "#aa0000")
 		 (main_preprocessor_color "#f05624")
 		 (main_background_color "#0e0e0e")
-		 (main_highlight_color "#300200")
+		 (main_highlight_color "#3a0000")
 		 (main_modeline_foreground_color "#555555")
 		 (main_modeline_background_color "#151515")
 		 (main_iSearch_color "#004400")
@@ -45,7 +45,7 @@
 
 		`(region ((t (:background ,main_highlight_color))))
 		
-		`(minibuffer-prompt ((t (:foreground ,main_strings_color))))
+		`(minibuffer-prompt ((t (:foreground ,pure_red_color))))
 
 		`(isearch ((t (:background ,main_iSearch_color :foreground ,main_foreground_color))))
 		`(query-replace ((t (:background ,main_iSearch_color :foreground ,main_foreground_color))))
