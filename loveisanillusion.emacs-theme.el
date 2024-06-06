@@ -15,7 +15,7 @@
 		 (main_highlight_color "#1a0000")
 		 (main_modeline_foreground_color "#555555")
 		 (main_modeline_background_color "#151515")
-		 (main_iSearch_color "#004400")
+		 (main_iSearch_color "#003a3a")
 		 (pure_black_color "#000000")
 		 (pure_white_color "#ffffff")
 		 (pure_red_color "#ff0000")
