@@ -10,7 +10,7 @@
 		 (main_keyword_color "#ee8800")
 		 (main_strings_color "#ff0000")
 		 (main_comment_color "#00aa00")
-		 (main_preprocessor_color "#f0f624")
+		 (main_preprocessor_color "#f05624")
 		 (main_background_color "#0e0e0e")
 		 (main_highlight_color "#300200")
 		 (main_modeline_foreground_color "#555555")
