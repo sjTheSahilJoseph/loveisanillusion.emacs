@@ -5,13 +5,15 @@
 (deftheme loveisanillusion.emacs "SJ the Sahil Joseph's Love is an Illusion for Emacs.")
 
 (let (
-		 (main_foreground_color "#c7c7c7")
+		 ;;		 (main_foreground_color "#c7c7c7")
+		 (main_foreground_color "#b2bcad")
 		 (secondary_foreground_color "#999999")
 		 (main_keyword_color "#ff9900")
 		 (main_strings_color "#00dd00")
 		 (main_comment_color "#00acfc")
 		 (main_preprocessor_color "#f05624")
-		 (main_background_color "#000000")
+		 ;;		 (main_background_color "#000000")
+		 (main_background_color "#071307")
 		 (main_highlight_color "#1a0000")
 		 (main_modeline_foreground_color "#555555")
 		 (main_modeline_background_color "#151515")
