@@ -1,5 +1,5 @@
 ;; SJ the Sahil Joseph's Love is An Illusion For Emacs.
-;; I've created this theme for my emacs, but feel free to use this if you want.
+;; I created this theme for my emacs, but feel free to use this if you want.
 
 
 (deftheme loveisanillusion.emacs "SJ the Sahil Joseph's Love is an Illusion for Emacs.")
@@ -64,8 +64,8 @@
 		`(dired-warning ((t (:foreground ,main_foreground_color))))
 
 		
-		`(org-level-1 ((t (:foreground "DodgerBlue1" :weight bold :height 1.5))))
-		`(org-level-2 ((t (:foreground "SteelBlue1" :weight bold :height 1.4))))
+		`(org-level-1 ((t (:foreground "White" :weight bold :height 1.5))))
+		`(org-level-2 ((t (:foreground "White" :weight bold :height 1.4))))
 		`(org-level-3 ((t (:foreground "DeepSkyBlue1" :weight bold :height 1.3))))
 		`(org-level-4 ((t (:foreground "SkyBlue1" :weight bold :height 1.2))))
 		`(org-level-5 ((t (:foreground "LightSkyBlue1" :weight bold :height 1.1))))
