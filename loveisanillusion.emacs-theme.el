@@ -21,9 +21,9 @@
 		 (pure_black_color "#000000")
 		 (pure_white_color "#ffffff")
 		 (pure_red_color "#ff0000")
-		 (main_hl_line_background_color "#0000aa")
+		 (main_hl_line_background_color "#003300")
 		 (main_line_number_color "#555555")
-		 (main_line_number_current_line_color "#777777")
+		 (main_line_number_current_line_color "#00acfc")
 
 		 )
 
