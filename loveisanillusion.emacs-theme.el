@@ -21,7 +21,10 @@
 		 (pure_black_color "#000000")
 		 (pure_white_color "#ffffff")
 		 (pure_red_color "#ff0000")
-		 
+		 (main_hl_line_background_color "#0000aa")
+		 (main_line_number_color "#555555")
+		 (main_line_number_current_line_color "#777777")
+
 		 )
 
 	(custom-theme-set-faces
@@ -88,7 +91,11 @@
 		
 		`(completions-highlight ((t (:foreground ,main_foreground_color :background ,main_highlight_color))))
 		`(highlight ((t (:foreground ,main_foreground_color :background ,main_highlight_color))))
-		`(hl-line ((t (:foreground ,main_foreground_color :background ,main_highlight_color))))
+		`(hl-line ((t (:foreground ,main_foreground_color :background ,main_hl_line_background_color))))
+		
+		`(line-number ((t (:foreground ,main_line_number_color :background ,main_background_color))))
+		`(line-number-current-line ((t (:foreground ,main_line_number_current_line_color :background ,main_background_color))))
+
 		
 		`(eshell-prompt ((t (:foreground ,main_strings_color)))))
 	)
