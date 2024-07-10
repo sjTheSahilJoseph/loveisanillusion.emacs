@@ -12,7 +12,7 @@
 	     (main_background_color "#ffffff")
 	     (main_highlight_color "#0078d7")
 	     (main_iSearch_color "#cccccc")
-	     (main_hl_line_background_color "#003300")
+	     (main_hl_line_background_color "#aaaaaa")
  	     (main_line_number_color "#555555")
  	     (main_line_number_current_line_color "#00acfc")
          
@@ -51,7 +51,7 @@
 		`(lazy-highlight ((t (:background ,main_iSearch_color :foreground ,main_foreground_color))))
 		`(escape-glyph ((t (:background ,main_iSearch_color :foreground ,main_foreground_color))))
 
-		`(dired-directory ((t (:foreground ,main_background_color :background ,main_foreground_color))))
+		`(dired-directory ((t (:foreground ,main_foreground_color :background ,main_hl_line_background_color))))
 		`(dired-flagged ((t (:foreground ,main_foreground_color))))
 		`(dired-header ((t (:foreground ,main_foreground_color))))
 		`(dired-ignored ((t (:foreground ,main_foreground_color))))
