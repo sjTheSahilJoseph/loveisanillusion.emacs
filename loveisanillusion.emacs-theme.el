@@ -7,16 +7,16 @@
 (let (
 
 
-	     (main_foreground_color "#cccccc")
-	     (main_comment_color "#00acfc")
-	     (main_background_color "#0c0c0c")
-	     (main_highlight_color "#1a0000")
-	     (main_iSearch_color "#003a3a")
+	     (main_foreground_color "#000000")
+	     (main_comment_color "#007a00")
+	     (main_background_color "#ffffff")
+	     (main_highlight_color "#0078d7")
+	     (main_iSearch_color "#cccccc")
 	     (main_hl_line_background_color "#003300")
  	     (main_line_number_color "#555555")
  	     (main_line_number_current_line_color "#00acfc")
          
-         
+  
 		 )
 
 	(custom-theme-set-faces
@@ -42,7 +42,7 @@
 		`(show-paren-match ((nil )))
         `(show-paren-mismatch ((nil )))
 
-		`(region ((t (:background ,main_highlight_color :foreground ,main_foreground_color))))
+		`(region ((t (:background ,main_highlight_color :foreground ,main_background_color))))
 		
 		`(minibuffer-prompt ((t (:foreground ,main_comment_color))))
 
