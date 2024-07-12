@@ -8,7 +8,7 @@
 
 
 	     (main_foreground_color "#000000")
-	     (main_comment_color "#007a00")
+	     (main_comment_color "#004500")
 	     (main_background_color "#ffffff")
 	     (main_highlight_color "#0078d7")
 	     (main_iSearch_color "#cccccc")
