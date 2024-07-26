@@ -14,7 +14,7 @@
 		 ;;	     (main_iSearch_color "#cccccc")
 		 ;;	     (main_hl_line_background_color "#aaaaaa")
 		 ;;	     (main_line_number_color "#555555")
-		 ;;	     (main_line_number_current_line_color "#00acfc")
+		 ;;	     (main_line_number_current_line_color "#0078d7")
 
          (main_foreground_color "#cccccc")
 	     (main_comment_color "#00dd00")
