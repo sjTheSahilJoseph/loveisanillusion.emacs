@@ -7,16 +7,25 @@
 (let (
 
 
-	     (main_foreground_color "#000000")
-	     (main_comment_color "#008a00")
-	     (main_background_color "#ffffff")
+		 ;;	     (main_foreground_color "#000000")
+		 ;;	     (main_comment_color "#008a00")
+		 ;;	     (main_background_color "#ffffff")
+		 ;;	     (main_highlight_color "#0078d7")
+		 ;;	     (main_iSearch_color "#cccccc")
+		 ;;	     (main_hl_line_background_color "#aaaaaa")
+		 ;;	     (main_line_number_color "#555555")
+		 ;;	     (main_line_number_current_line_color "#00acfc")
+
+         (main_foreground_color "#cccccc")
+	     (main_comment_color "#00dd00")
+	     (main_background_color "#0c0c0c")
 	     (main_highlight_color "#0078d7")
-	     (main_iSearch_color "#cccccc")
-	     (main_hl_line_background_color "#aaaaaa")
- 	     (main_line_number_color "#555555")
- 	     (main_line_number_current_line_color "#00acfc")
-         
-  
+	     (main_iSearch_color "#0c0c0c")
+	     (main_hl_line_background_color "#333333")
+ 	     (main_line_number_color "#aaaaaa")
+ 	     (main_line_number_current_line_color "#0078d7")
+
+		 
 		 )
 
 	(custom-theme-set-faces
