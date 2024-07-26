@@ -59,35 +59,12 @@
 		`(dired-perm-write ((t (:foreground ,main_foreground_color))))
 		`(dired-symlink ((t (:foreground ,main_comment_color))))
 		`(dired-warning ((t (:foreground ,main_foreground_color))))
-
-		
-		`(org-level-1 ((t (:foreground ,main_foreground_color :weight bold :height 1.5))))
-		`(org-level-2 ((t (:foreground ,main_foreground_color :weight bold :height 1.4))))
-		`(org-level-3 ((t (:foreground ,main_foreground_color :weight bold :height 1.3))))
-		`(org-level-4 ((t (:foreground ,main_foreground_color :weight bold :height 1.2))))
-		`(org-level-5 ((t (:foreground ,main_foreground_color :weight bold :height 1.1))))
-		`(org-level-6 ((t (:foreground ,main_foreground_color :weight bold :height 1.0))))
-		`(org-level-7 ((t (:foreground ,main_foreground_color :weight bold :height 1.0))))
-		`(org-level-8 ((t (:foreground ,main_foreground_color :weight bold :height 1.0))))
-		`(org-todo ((t (:foreground,main_foreground_color :weight bold))))
-		`(org-done ((t (:foreground,main_foreground_color :weight bold))))
-		`(org-block ((t (:foreground,main_foreground_color :background,main_background_color :extend t))))
-		`(org-block-begin-line ((t (:foreground,main_foreground_color :background,main_background_color :extend t))))
-		`(org-block-end-line ((t (:foreground,main_foreground_color :background,main_background_color :extend t))))
-		`(org-link ((t (:foreground,main_foreground_color :underline t))))
-		`(org-special-keyword ((t (:foreground,main_foreground_color))))
-		`(org-date ((t (:foreground,main_foreground_color :underline t))))
-		`(org-agenda-date ((t (:foreground,main_foreground_color :weight bold))))
-		`(org-agenda-date-weekend ((t (:foreground,main_foreground_color :weight bold))))
-		`(org-agenda-date-today ((t (:foreground,main_foreground_color :weight bold))))
-		`(org-agenda-done ((t (:foreground,main_foreground_color))))
 		
 		`(highlight ((t (:foreground ,main_foreground_color :background ,main_highlight_color))))
 		`(hl-line ((t (:foreground ,main_foreground_color :background ,main_hl_line_background_color))))
 		
 		`(line-number ((t (:foreground ,main_line_number_color :background ,main_background_color))))
 		`(line-number-current-line ((t (:foreground ,main_line_number_current_line_color :background ,main_background_color))))
-
 		
 		`(eshell-prompt ((t (:foreground ,main_foreground_color)))))
 	)
