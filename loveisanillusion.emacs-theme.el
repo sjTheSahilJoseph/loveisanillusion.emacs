@@ -17,21 +17,28 @@
 		 ;;		 (main_line_number_current_line_color "#0078d7")
 
 		 (main_foreground_color "#f3f4f6")
-		 (main_comment_color "#00aa00")
 		 (main_background_color "#111111")
+		 
+		 (main_comment_color "#00aa00")
+		 
 		 (main_highlight_color "#0078d7")
-		 (main_iSearch_color "#cccccc")
-		 (main_hl_line_background_color "#aaaaaa")
+		 
+		 (main_iSearch_background_color "#5a0000")
+		 (main_iSearch_foreground_color "#c3c4c6")
+		 
 		 (main_line_number_color "#555555")
 		 (main_line_number_current_line_color "#0078d7")
-
 
 		 (main_highlight_foreground_color "#ffffff")
 		 (main_highlight_background_color "#0078d7")
 
 		 (main_modeline_inactive_background_color "#1c1c1c")
-		 (main_modeline_inactive_foreground_color "#4c4c4c")
+		 (main_modeline_inactive_foreground_color "#bcbcbc")
 
+		 (main_modeline_active_background_color "#bcbcbc")
+		 (main_modeline_active_foreground_color "#1c1c1c")
+		 
+		 (main_hl_line_background_color "#aaaaaa")
 		 
 		 )
 
@@ -53,7 +60,7 @@
      	`(font-lock-function-call-face ((t (:foreground ,main_foreground_color))))
 
 		`(mode-line-inactive ((t (:foreground ,main_modeline_inactive_foreground_color :background ,main_modeline_inactive_background_color))))
-		`(mode-line ((t (:foreground ,main_background_color :background ,main_foreground_color))))
+		`(mode-line ((t (:foreground ,main_modeline_active_foreground_color :background ,main_modeline_active_background_color))))
 
 		`(show-paren-match ((nil )))
         `(show-paren-mismatch ((nil )))
@@ -62,10 +69,10 @@
 		
 		`(minibuffer-prompt ((t (:foreground ,main_comment_color))))
 
-		`(isearch ((t (:background ,main_iSearch_color :foreground ,main_foreground_color))))
-		`(query-replace ((t (:background ,main_iSearch_color :foreground ,main_foreground_color))))
-		`(lazy-highlight ((t (:background ,main_iSearch_color :foreground ,main_foreground_color))))
-		`(escape-glyph ((t (:background ,main_iSearch_color :foreground ,main_foreground_color))))
+		`(isearch ((t (:background ,main_iSearch_background_color :foreground ,main_iSearch_foreground_color))))
+		`(query-replace ((t (:background ,main_iSearch_background_color :foreground ,main_iSearch_foreground_color))))
+		`(lazy-highlight ((t (:background ,main_iSearch_background_color :foreground ,main_iSearch_foreground_color))))
+		`(escape-glyph ((t (:background ,main_iSearch_background_color :foreground ,main_iSearch_foreground_color))))
 
 		`(dired-directory ((t (:foreground ,main_foreground_color :background ,main_hl_line_background_color))))
 		`(dired-flagged ((t (:foreground ,main_foreground_color))))
