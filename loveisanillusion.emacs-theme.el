@@ -39,6 +39,9 @@
 		 (main_modeline_active_foreground_color "#1c1c1c")
 		 
 		 (main_hl_line_background_color "#aaaaaa")
+
+		 (main_dired_directory_background_color "#752000")
+		 (main_dired_directory_foreground_color "#f3f4f6")
 		 
 		 )
 
@@ -74,7 +77,7 @@
 		`(lazy-highlight ((t (:background ,main_iSearch_background_color :foreground ,main_iSearch_foreground_color))))
 		`(escape-glyph ((t (:background ,main_iSearch_background_color :foreground ,main_iSearch_foreground_color))))
 
-		`(dired-directory ((t (:foreground ,main_foreground_color :background ,main_hl_line_background_color))))
+		`(dired-directory ((t (:foreground ,main_dired_directory_foreground_color :background ,main_dired_directory_background_color))))
 		`(dired-flagged ((t (:foreground ,main_foreground_color))))
 		`(dired-header ((t (:foreground ,main_foreground_color))))
 		`(dired-ignored ((t (:foreground ,main_foreground_color))))
