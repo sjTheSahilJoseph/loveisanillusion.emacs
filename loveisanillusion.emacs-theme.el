@@ -6,9 +6,9 @@
 
 (let (
 		 
-		 (background "#ffffff")
-		 (foreground "#000000")
-		 (keyword_foreground "#ff9900")
+		 (background "#161616")
+		 (foreground "#a08563")
+		 (keyword_foreground "#cd950c")
 		 (comment_foreground "#008a00")
 		 (highlight_background "#0078d7")
 		 (highlight_foreground "#ffffff")
