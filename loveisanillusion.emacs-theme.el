@@ -23,7 +23,7 @@
 		 (line_numbers_foreground "#555555")
 		 (active_line_number_foreground "#aaaaaa")
 		 (hl_line_background "#550000")
-		 (dired_directory_background "#000055")
+		 (dired_directory_background "#333333")
 		 
 		 )
 
