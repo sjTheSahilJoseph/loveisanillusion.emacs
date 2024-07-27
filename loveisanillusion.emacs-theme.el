@@ -24,7 +24,7 @@
 		 (main_highlight_color "#0078d7")
 		 
 		 (main_iSearch_background_color "#5a0000")
-		 (main_iSearch_foreground_color "#c3c4c6")
+		 (main_iSearch_foreground_color "#e3e4e6")
 		 
 		 (main_line_number_color "#555555")
 		 (main_line_number_current_line_color "#0078d7")
