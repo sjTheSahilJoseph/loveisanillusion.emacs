@@ -7,14 +7,30 @@
 (let (
 
 
-		 (main_foreground_color "#000000")
-		 (main_comment_color "#008a00")
-		 (main_background_color "#ffffff")
+		 ;;		 (main_foreground_color "#000000")
+		 ;;		 (main_comment_color "#008a00")
+		 ;;		 (main_background_color "#ffffff")
+		 ;;		 (main_highlight_color "#0078d7")
+		 ;;		 (main_iSearch_color "#cccccc")
+		 ;;		 (main_hl_line_background_color "#aaaaaa")
+		 ;;		 (main_line_number_color "#555555")
+		 ;;		 (main_line_number_current_line_color "#0078d7")
+
+		 (main_foreground_color "#f3f4f6")
+		 (main_comment_color "#00aa00")
+		 (main_background_color "#111111")
 		 (main_highlight_color "#0078d7")
 		 (main_iSearch_color "#cccccc")
 		 (main_hl_line_background_color "#aaaaaa")
 		 (main_line_number_color "#555555")
 		 (main_line_number_current_line_color "#0078d7")
+
+
+		 (main_highlight_foreground_color "#ffffff")
+		 (main_highlight_background_color "#0078d7")
+
+		 (main_modeline_inactive_background_color "#1c1c1c")
+		 (main_modeline_inactive_foreground_color "#4c4c4c")
 
 		 
 		 )
@@ -36,13 +52,13 @@
 		`(font-lock-function-name-face ((t (:foreground ,main_foreground_color))))
      	`(font-lock-function-call-face ((t (:foreground ,main_foreground_color))))
 
-		`(mode-line-inactive ((t (:foreground ,main_foreground_color :background ,main_background_color))))
+		`(mode-line-inactive ((t (:foreground ,main_modeline_inactive_foreground_color :background ,main_modeline_inactive_background_color))))
 		`(mode-line ((t (:foreground ,main_background_color :background ,main_foreground_color))))
 
 		`(show-paren-match ((nil )))
         `(show-paren-mismatch ((nil )))
 
-		`(region ((t (:background ,main_highlight_color :foreground ,main_background_color))))
+		`(region ((t (:background ,main_highlight_background_color :foreground ,main_highlight_foreground_color))))
 		
 		`(minibuffer-prompt ((t (:foreground ,main_comment_color))))
 
