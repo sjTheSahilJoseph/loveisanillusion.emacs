@@ -22,7 +22,7 @@
 		 (isearch_background "#003a3a")
 		 (line_numbers_foreground "#555555")
 		 (active_line_number_foreground "#aaaaaa")
-		 (hl_line_background "#880000")
+		 (hl_line_background "#550000")
 		 (dired_directory_background "#000000")
 		 
 		 )
