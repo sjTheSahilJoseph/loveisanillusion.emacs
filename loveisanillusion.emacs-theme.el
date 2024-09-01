@@ -13,10 +13,10 @@
 		 (string_foreground "#50ff30")
 		 (highlight_background "#3a0000")
 		 (highlight_foreground "#90b080")
-		 (modline_active_foreground "#cacaca")
-		 (modline_active_background "#3d3d3d")
-		 (modline_inactive_foreground "#cacaca")
-		 (modline_inactive_background "#1c1c1c")
+		 (modline_active_foreground "#0d0d0d")
+		 (modline_active_background "#666666")
+		 (modline_inactive_foreground "#0d0d0d")
+		 (modline_inactive_background "#888888")
 		 (isearch_foreground "#90b080")
 		 (isearch_background "#003a3a")
 		 (line_numbers_foreground "#555555")
@@ -49,7 +49,7 @@
 		`(show-paren-match ((nil )))
         `(show-paren-mismatch ((nil )))
 
-		`(region ((t (:background ,highlight_background :foreground ,highlight_foreground))))
+	    `(region ((t (:background ,highlight_background))))
 		
 		`(minibuffer-prompt ((t (:foreground ,comment_foreground))))
 
