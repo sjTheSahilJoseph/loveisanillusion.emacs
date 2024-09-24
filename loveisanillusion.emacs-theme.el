@@ -14,19 +14,19 @@
 	  (highlight_background "#3a0000")
 	  (highlight_foreground "#90b080")
 	  (modline_active_foreground "#0d0d0d")
-	  (modline_active_background "#999999")
+	  (modline_active_background "#bbbbbb")
 	  (modline_inactive_foreground "#0d0d0d")
-	  (modline_inactive_background "#666666")
+	  (modline_inactive_background "#aaaaaa")
 	  (isearch_foreground "#90b080")
 	  (isearch_background "#003a3a")
 	  (line_numbers_foreground "#555555")
 	  (active_line_number_foreground "#aaaaaa")
 	  (hl_line_background "#550000")
 	  (dired_directory_background "#333333")
-	  (mis_match_paren_foreground "#cc0000")
-	  (match_paren_foreground "#cccccc")
+	  (mis_match_paren_foreground "#ff0000")
+	  (match_paren_foreground "#ffffff")
 	  )
-
+  
   (custom-theme-set-faces
    'loveisanillusion.emacs
 
@@ -68,6 +68,9 @@
    `(line-number-current-line ((t (:foreground ,active_line_number_foreground :background ,background))))
    
    `(eshell-prompt ((t (:foreground ,comment_foreground)))))
+
+  
+  
   )
 
 (provide-theme 'loveisanillusion.emacs)
