@@ -25,8 +25,8 @@
 	  (dired_directory_background "#333333")
 	  (mis_match_paren_foreground "#990000")
 	  (match_paren_foreground "#ffffff")
-	  (error_color "#990000")
-	  (warning_color "#aaaa00")
+	  (error_color "#bb0000")
+	  (warning_color "#bbbb00")
 	  )
   
   (custom-theme-set-faces
