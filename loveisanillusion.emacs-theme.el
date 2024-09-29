@@ -23,10 +23,10 @@
 	  (active_line_number_foreground "#aaaaaa")
 	  (hl_line_background "#550000")
 	  (dired_directory_background "#333333")
-	  (mis_match_paren_foreground "#ff0000")
+	  (mis_match_paren_foreground "#990000")
 	  (match_paren_foreground "#ffffff")
-	  (error_color "#ff0000")
-	  
+	  (error_color "#990000")
+	  (warning_color "#aaaa00")
 	  )
   
   (custom-theme-set-faces
@@ -71,6 +71,9 @@
 
    `(error ((t (:foreground ,error_color))))
    `(compilation_error ((t (:foreground ,error_color))))
+
+   `(warning ((t (:foreground ,warning_color))))
+   `(compilation_warning ((t (:foreground ,warning_color))))
    
    `(eshell-prompt ((t (:foreground ,comment_foreground)))))
 
