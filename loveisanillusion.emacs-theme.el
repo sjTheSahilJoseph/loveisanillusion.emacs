@@ -25,7 +25,7 @@
 	  (dired_directory_background "#333333")
 	  (mis_match_paren_foreground "#ff0000")
 	  (match_paren_foreground "#ffffff")
-	  (error_color "#bb0000")
+	  (error_color "#ff0000")
 	  
 	  )
   
