@@ -74,6 +74,8 @@
 
    `(warning ((t (:foreground ,warning_color))))
    `(compilation_warning ((t (:foreground ,warning_color))))
+
+   
    
    `(eshell-prompt ((t (:foreground ,comment_foreground)))))
 
