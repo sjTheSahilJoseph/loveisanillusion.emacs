@@ -5,7 +5,7 @@
 (deftheme loveisanillusion.emacs "SJ the Sahil Joseph's Love is an Illusion for Emacs.")
 
 (let (
-	     (background "#060606")
+	     (background "#0c0c0c")
 	     (foreground "#90b080")
 	     (keyword_foreground "#d08f20")
 	     (preprocessor_foreground "#d08f20")
