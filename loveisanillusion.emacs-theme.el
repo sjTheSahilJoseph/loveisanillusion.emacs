@@ -67,7 +67,7 @@
         `(dired-set-id ((t (:foreground ,keyword_foreground))))
         
         `(highlight ((t (:foreground ,highlight_foreground :background ,highlight_background))))
-        `(hl-line ((t (:foreground ,foreground :background ,hl_line_background))))
+        `(hl-line ((t (:background ,hl_line_background))))
         
         `(line-number ((t (:foreground ,line_numbers_foreground :background ,background))))
         `(line-number-current-line ((t (:foreground ,active_line_number_foreground :background ,background))))
