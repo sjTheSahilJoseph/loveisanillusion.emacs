@@ -82,7 +82,7 @@
         
         `(eshell-prompt ((t (:foreground ,comment_foreground))))
         
-        `(eldoc-box-border ((t (:background ,string_foreground))))
+        `(eldoc-box-border ((t (:background ,modline_active_foreground))))
 
         )
     
