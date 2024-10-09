@@ -80,8 +80,11 @@
 
         
         
-        `(eshell-prompt ((t (:foreground ,comment_foreground)))))
+        `(eshell-prompt ((t (:foreground ,comment_foreground))))
+        
+        `(eldoc-box-border ((t (:background ,string_foreground))))
 
+        )
     
     
     )
