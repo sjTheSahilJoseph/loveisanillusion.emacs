@@ -85,6 +85,17 @@
         
         `(eldoc-box-border ((t (:background ,modline_active_foreground))))
 
+        `(org-level-1 ((t (:foreground ,keyword_foreground :weight bold :height 1.5))))
+        `(org-level-2 ((t (:foreground ,string_foreground :weight bold :height 1.3))))
+        `(org-level-3 ((t (:foreground ,comment_foreground :weight bold :height 1.2))))
+        `(org-level-4 ((t (:foreground ,foreground :weight bold :height 1.1))))
+        `(org-default ((t (:foreground ,foreground :background ,background))))
+        `(org-block ((t (:foreground ,foreground :background ,highlight_background))))
+        `(org-block-begin-line ((t (:foreground ,comment_foreground :background ,highlight_background))))
+        `(org-block-end-line ((t (:foreground ,comment_foreground :background ,highlight_background))))
+        `(org-bold ((t (:weight bold :foreground ,keyword_foreground))))
+        `(org-italic ((t (:slant italic :foreground ,string_foreground))))
+
         )
     
     
