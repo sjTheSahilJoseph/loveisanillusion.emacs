@@ -81,6 +81,7 @@
         
         
         `(eshell-prompt ((t (:foreground ,comment_foreground))))
+        `(package-status-help ((t (:foreground ,comment_foreground))))
         
         `(eldoc-box-border ((t (:background ,modline_active_foreground))))
 
