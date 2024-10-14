@@ -96,6 +96,11 @@
         `(org-bold ((t (:weight bold :foreground ,keyword_foreground))))
         `(org-italic ((t (:slant italic :foreground ,string_foreground))))
 
+        `(help-key-binding ((t (:background ,background :foreground ,foreground :font "Liberation Mono-13" :weight bold :slant italic))))
+        `(header-line-highlight ((t (:background ,background :foreground ,keyword_foreground :font "Liberation Mono-13" :weight bold :slant italic))))
+
+        `(fixed-pitch ((t (:font "Liberation Mono-13"))))
+
         )
     
     
