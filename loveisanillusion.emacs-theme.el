@@ -27,6 +27,7 @@
 	     (match_paren_foreground "#ffffff")
 	     (error_color "#bb0000")
 	     (warning_color "#bbbb00")
+         (dim_fr "#969696")
 	     )
     
     (custom-theme-set-faces
@@ -100,6 +101,12 @@
         `(header-line-highlight ((t (:background ,background :foreground ,keyword_foreground :font "Liberation Mono-13" :weight bold :slant italic))))
 
         `(fixed-pitch ((t (:font "Liberation Mono-13"))))
+
+        `(eglot-inlay-hint-face ((t (:font "Liberation Mono-13" :foreground ,dim_fr))))
+        `(eglot-type-hint-face ((t (:font "Liberation Mono-13" :foreground ,dim_fr))))
+        `(eglot-parameter-hint-face ((t (:font "Liberation Mono-13" :foreground ,dim_fr))))
+        
+        `(eglot-highlight-function-argument ((t (:font "Liberation Mono-13"))))
 
         )
     
