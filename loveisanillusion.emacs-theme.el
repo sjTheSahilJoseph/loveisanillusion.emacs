@@ -48,8 +48,8 @@
         `(mode-line-inactive ((t (:foreground ,modline_inactive_foreground :background ,modline_inactive_background))))
         `(mode-line ((t (:foreground ,modline_active_foreground :background ,modline_active_background))))
 
-        `(show-paren-match 'nil)
-        `(show-paren-nismatch 'nil)
+        `(show-paren-match (nil))
+        `(show-paren-nismatch (nil))
 
         `(region ((t (:background ,highlight_background))))
         
