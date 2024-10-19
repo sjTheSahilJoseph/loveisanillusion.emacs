@@ -17,8 +17,8 @@
 	     (modline_active_background "#0d0d0d")
 	     (modline_inactive_foreground "#aaaaaa")
 	     (modline_inactive_background "#0d0d0d")
-	     (isearch_foreground "#90b080")
-	     (isearch_background "#003a3a")
+	     (isearch_foreground "#ff44dd")
+	     (isearch_background "#ddee00")
 	     (line_numbers_foreground "#555555")
 	     (active_line_number_foreground "#aaaaaa")
 	     (hl_line_background "#1e1e1e")
@@ -50,8 +50,8 @@
         `(mode-line-inactive ((t (:foreground ,modline_inactive_foreground :background ,modline_inactive_background))))
         `(mode-line ((t (:foreground ,modline_active_foreground :background ,modline_active_background))))
 
-        `(show-paren-match ((t (:foreground ,match_paren_foreground) )))
-        `(show-paren-mismatch ((t (:foreground ,mis_match_paren_foreground) )))
+        `(show-paren-match ((nil (:foreground ,match_paren_foreground) )))
+        `(show-paren-mismatch ((nil (:foreground ,mis_match_paren_foreground) )))
 
         `(region ((t (:background ,highlight_background))))
         
@@ -78,13 +78,9 @@
 
         `(warning ((t (:foreground ,warning_color))))
         `(compilation_warning ((t (:foreground ,warning_color))))
-
-        
         
         `(eshell-prompt ((t (:foreground ,comment_foreground))))
         `(package-status-help ((t (:foreground ,comment_foreground))))
-        
-        `(eldoc-box-border ((t (:background ,modline_active_foreground))))
 
         `(org-level-1 ((t (:foreground ,keyword_foreground :weight bold :height 1.5))))
         `(org-level-2 ((t (:foreground ,string_foreground :weight bold :height 1.3))))
@@ -102,11 +98,6 @@
 
         `(fixed-pitch ((t (:font "Liberation Mono-13"))))
 
-        `(eglot-inlay-hint-face ((t (:font "Liberation Mono-13" :foreground ,dim_fr))))
-        `(eglot-type-hint-face ((t (:font "Liberation Mono-13" :foreground ,dim_fr))))
-        `(eglot-parameter-hint-face ((t (:font "Liberation Mono-13" :foreground ,dim_fr))))
-        
-        `(eglot-highlight-function-argument ((t (:font "Liberation Mono-13"))))
 
         )
     
