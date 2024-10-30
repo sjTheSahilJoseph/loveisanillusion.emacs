@@ -48,6 +48,8 @@
         `(mode-line-inactive ((t (:foreground ,modline_inactive_foreground :background ,modline_inactive_background))))
         `(mode-line ((t (:foreground ,modline_active_foreground :background ,modline_active_background))))
 
+        `(fringe ((t ( :background ,background))))
+
         `(show-paren-match (nil))
         `(show-paren-nismatch (nil))
 
