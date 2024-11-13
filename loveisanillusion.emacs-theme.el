@@ -93,6 +93,14 @@
         `(org-bold ((t (:weight bold :foreground ,keyword_foreground))))
         `(org-italic ((t (:slant italic :foreground ,string_foreground))))
 
+        `(markdown-header-face-1 ((t (:foreground ,keyword_foreground :weight bold :height 1.5))))
+        `(markdown-header-face-2 ((t (:foreground ,string_foreground :weight bold :height 1.3))))
+        `(markdown-header-face-3 ((t (:foreground ,comment_foreground :weight bold :height 1.2))))
+        `(markdown-header-face-4 ((t (:foreground ,foreground :weight bold :height 1.1))))
+        `(markdown-comment-face ((t (:foreground ,comment_foreground))))
+        `(markdown-bold-face ((t (:weight bold :foreground ,keyword_foreground))))
+        `(markdown-italic-face ((t (:slant italic :foreground ,string_foreground))))
+
         `(help-key-binding ((t (:background ,background :foreground ,foreground :font "Liberation Mono-13" :weight bold :slant italic))))
         `(header-line-highlight ((t (:background ,background :foreground ,keyword_foreground :font "Liberation Mono-13" :weight bold :slant italic))))
 
