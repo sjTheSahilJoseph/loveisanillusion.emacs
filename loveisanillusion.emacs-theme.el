@@ -13,7 +13,7 @@
 		 (preprocessor_foreground "#DAB98F")
 		 (comment_foreground "#7d7d7d")
 		 (string_foreground "#6b8323")
-		 (highlight_background "#703419")
+		 (highlight_background "#181818")
 		 (highlight_foreground "#cdaa7d")
 		 (modline_active_foreground "#cacaca")
 		 (modline_active_background "#3d3d3d")
