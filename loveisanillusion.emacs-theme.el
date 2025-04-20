@@ -56,7 +56,7 @@
         `(show-paren-match (nil))
         `(show-paren-nismatch (nil))
 
-        `(region ((t (:background ,highlight_background, :foreground ,highlight_foreground))))
+        `(region ((t (:background ,highlight_background))))
         
         `(minibuffer-prompt ((t (:foreground ,comment_foreground))))
 
