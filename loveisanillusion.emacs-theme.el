@@ -7,27 +7,54 @@
 (let (
 
 
-         (background "#161616")
-		 (foreground "#a08563")
-		 (keyword_foreground "#cd950c")
-		 (preprocessor_foreground "#DAB98F")
-		 (comment_foreground "#7d7d7d")
-		 (string_foreground "#6b8323")
-		 (highlight_background "#181818")
-		 (highlight_foreground "#cdaa7d")
-		 (modline_active_foreground "#cacaca")
-		 (modline_active_background "#3d3d3d")
-		 (modline_inactive_foreground "#cacaca")
-		 (modline_inactive_background "#1c1c1c")
-		 (isearch_foreground "#a08563")
-		 (isearch_background "#003a3a")
-		 (line_numbers_foreground "#555555")
-		 (active_line_number_foreground "#aaaaaa")
-		 (hl_line_background "#343434")
-	     (dired_directory_background "#333333")
+;;         (background "#161616")
+;;		 (foreground "#a08563")
+;;		 (keyword_foreground "#cd950c")
+;;		 (preprocessor_foreground "#DAB98F")
+;;		 (comment_foreground "#7d7d7d")
+;;		 (string_foreground "#6b8323")
+;;		 (highlight_background "#181818")
+;;		 (highlight_foreground "#cdaa7d")
+;;		 (modline_active_foreground "#cacaca")
+;;		 (modline_active_background "#3d3d3d")
+;;		 (modline_inactive_foreground "#cacaca")
+;;		 (modline_inactive_background "#1c1c1c")
+;;		 (isearch_foreground "#a08563")
+;;		 (isearch_background "#003a3a")
+;;		 (line_numbers_foreground "#555555")
+;;		 (active_line_number_foreground "#aaaaaa")
+;;		 (hl_line_background "#343434")
+;;	     (dired_directory_background "#333333")
+;;	     (error_color "#bb0000")
+;;	     (warning_color "#bbbb00")
+  ;;       (dim_fr "#969696")
+
+
+         (background "#ffffff")
+	     (foreground "#000000")
+	     (keyword_foreground "#000000")
+	     (preprocessor_foreground "#000000")
+	     (comment_foreground "#005500")
+	     (string_foreground "#000000")
+	     (highlight_background "#0078d7")
+	     (highlight_foreground "#ffffff")
+	     (modline_active_foreground "#0d0d0d")
+	     (modline_active_background "#bbbbbb")
+	     (modline_inactive_foreground "#0d0d0d")
+	     (modline_inactive_background "#aaaaaa")
+	     (isearch_foreground "#ff44dd")
+	     (isearch_background "#ddee00")
+	     (line_numbers_foreground "#555555")
+	     (active_line_number_foreground "#aaaaaa")
+	     (hl_line_background "#d5d5d5")
+	     (dired_directory_background "#d6d6d6")
 	     (error_color "#bb0000")
 	     (warning_color "#bbbb00")
          (dim_fr "#969696")
+
+
+
+
 	     )
     
     (custom-theme-set-faces
@@ -55,7 +82,7 @@
         `(show-paren-match (nil))
         `(show-paren-nismatch (nil))
 
-        `(region ((t (:background ,highlight_background))))
+        `(region ((t (:background ,highlight_background, :foreground ,highlight_foreground))))
         
         `(minibuffer-prompt ((t (:foreground ,comment_foreground))))
 
@@ -115,15 +142,5 @@
     )
 
 (provide-theme 'loveisanillusion.emacs)
-
-
-
-
-
-
-
-
-
-
 
 
