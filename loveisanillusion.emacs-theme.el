@@ -5,30 +5,27 @@
 (deftheme loveisanillusion.emacs "SJ the Sahil Joseph's Love is an Illusion for Emacs.")
 
 (let (
-
-
-         (background "#0c0c0c")
-	     (foreground "#90b080")
-	     (keyword_foreground "#d08f20")
-	     (preprocessor_foreground "#d08f20")
-	     (comment_foreground "#2090f0")
-	     (string_foreground "#50ff30")
-	     (highlight_background "#111111")
-	     (highlight_foreground "#90b080")
-	     (modline_active_foreground "#bbbbbb")
-	     (modline_active_background "#0d0d0d")
-	     (modline_inactive_foreground "#aaaaaa")
-	     (modline_inactive_background "#0d0d0d")
-	     (isearch_foreground "#ff44dd")
-	     (isearch_background "#ddee00")
+         (background "#ffffff")
+	     (foreground "#000000")
+	     (keyword_foreground "#000000")
+         (preprocessor_foreground "#000000")
+	     (comment_foreground "#009600")
+	     (string_foreground "#000000")
+	     (highlight_background "#0078d7")
+	     (highlight_foreground "#ffffff")
+	     (modline_active_foreground "#0d0d0d")
+	     (modline_active_background "#bbbbbb")
+	     (modline_inactive_foreground "#0d0d0d")
+	     (modline_inactive_background "#aaaaaa")
+	     (isearch_foreground "#ffffff")
+	     (isearch_background "#000000")
 	     (line_numbers_foreground "#555555")
 	     (active_line_number_foreground "#aaaaaa")
-	     (hl_line_background "#1e1e1e")
-	     (dired_directory_background "#333333")
-	     (error_color "#bb0000")
-	     (warning_color "#bbbb00")
+	     (hl_line_background "#d5d5d5")
+	     (dired_directory_background "#d6d6d6")
+	     (error_color "#ff0000")
+	     (warning_color "#ffff00")
          (dim_fr "#969696")
-
 
 	     )
     
@@ -57,7 +54,7 @@
         `(show-paren-match (nil))
         `(show-paren-nismatch (nil))
 
-        `(region ((t (:background ,highlight_background))))
+        `(region ((t (:background ,highlight_background, :foreground ,highlight_foreground))))
         
         `(minibuffer-prompt ((t (:foreground ,comment_foreground))))
 
@@ -117,5 +114,4 @@
     )
 
 (provide-theme 'loveisanillusion.emacs)
-
 
