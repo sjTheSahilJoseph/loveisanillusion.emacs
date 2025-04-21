@@ -23,8 +23,8 @@
 	     (active_line_number_foreground "#aaaaaa")
 	     (hl_line_background "#d5d5d5")
 	     (dired_directory_background "#d6d6d6")
-	     (error_color "#bb0000")
-	     (warning_color "#bbbb00")
+	     (error_color "#ff0000")
+	     (warning_color "#ffff00")
          (dim_fr "#969696")
 
 	     )
