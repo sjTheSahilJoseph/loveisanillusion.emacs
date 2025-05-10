@@ -135,6 +135,15 @@
 
         `(fixed-pitch ((t (:font "Liberation Mono-13"))))
 
+        `(org-level-1 ((t (:foreground ,string_foreground :weight bold :height 1.5))))
+        `(org-level-2 ((t (:foreground ,keyword_foreground :weight bold :height 1.3))))
+        `(org-level-3 ((t (:foreground ,comment_foreground :weight bold :height 1.2))))
+        `(org-level-4 ((t (:foreground ,foreground :weight bold :height 1.1))))
+        `(org-level-5 ((t (:foreground ,foreground :weight bold :height 1.0))))
+        `(org-level-6 ((t (:foreground ,foreground :weight bold :height 1.0))))
+        `(org-level-7 ((t (:foreground ,foreground :weight bold :height 1.0))))
+        `(org-level-8 ((t (:foreground ,foreground :weight bold :height 1.0))))
+
 
         )
     
