@@ -84,7 +84,7 @@
         ;; if light
         ;; `(region ((t (:background ,highlight_background, :foreground ,highlight_foreground))))
         
-        `(minibuffer-prompt ((t (:foreground ,comment_foreground))))
+        `(minibuffer-prompt ((t (:foreground ,comment_foreground :font "Liberation Mono-13"))))
 
         `(isearch ((t (:background ,isearch_background :foreground ,isearch_foreground))))
         `(query-replace ((t (:background ,isearch_background :foreground ,isearch_foreground))))
@@ -134,6 +134,10 @@
         `(header-line-highlight ((t (:background ,background :foreground ,keyword_foreground :font "Liberation Mono-13" :weight bold :slant italic))))
 
         `(fixed-pitch ((t (:font "Liberation Mono-13"))))
+
+        `(vertico-current ((t (:font "Liberation Mono-15"))))
+        `(vertico-multiline ((t (:font "Liberation Mono-15"))))
+
 
         `(org-level-1 ((t (:foreground ,string_foreground :weight bold :height 1.5))))
         `(org-level-2 ((t (:foreground ,keyword_foreground :weight bold :height 1.3))))
