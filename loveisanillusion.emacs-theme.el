@@ -149,6 +149,11 @@
 
         `(fixed-pitch ((t (:font "Liberation Mono-13"))))
 
+        `(vertico-current ((t (:foreground ,isearch_foreground :background ,isearch_background))))
+        `(orderless-match-face-0 ((t (:foreground ,isearch_foreground :background ,isearch_background))))
+        `(match ((t (:foreground ,isearch_foreground :background ,isearch_background))))
+        `(consult-highlight-match ((t (:foreground ,isearch_foreground :background ,isearch_background))))
+
 
         )
     
